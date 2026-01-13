@@ -9,7 +9,7 @@ import java.net.MalformedURLException;
 import java.net.URI;
 import java.time.Duration;
 
-public class BaseTest {
+public class Config {
 
     protected AndroidDriver driver;
 

@@ -1,7 +1,6 @@
 package tests;
 
-import config.BaseTest;
-import io.appium.java_client.AppiumBy;
+import config.Config;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.TimeoutException;
@@ -10,12 +9,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.time.Duration;
-import java.util.NoSuchElementException;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class VpnTest extends BaseTest {
+public class VpnTest extends Config {
 
     @Test
     public void testVPNConnection() {

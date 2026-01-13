@@ -1,6 +1,6 @@
 package tests;
 
-import config.BaseTest;
+import config.Config;
 import io.appium.java_client.AppiumBy;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
@@ -13,7 +13,7 @@ import java.util.NoSuchElementException;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class VkVideoTest extends BaseTest {
+public class VkVideoTest extends Config {
 
     @Test
     public void testVideoPlayback() {
